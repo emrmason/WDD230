@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+/* CSS HEX 
+--eggshell: #f4f1deff;
+--deep-champagne: #f2cc8fff;
+--blue-ncs: #118ab2ff;
+--independence: #3d405bff;
+*/
+
+/*Fonts*/
+/* body*/
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+/* font-family: 'Marcellus', serif; */
+/*headers*/
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Playfair+Display:wght@600&display=swap');
+/* font-family: 'Playfair display', serif; */
+/*accent*/
+
+
+
+body{
+    background-color: #e3f2fd;
+    max-width: 760px;
+    margin: auto;
+}
+main {
+    font-family: 'Alice', serif;
+    padding: 10px;
+}
+header {
+    width: 100%;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    align-content: center;
+    background-color: #293241;
+    color: #ee6c4d;
+    border-style: groove;
+    border-color: gray;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+footer {
+    width: 100%;
+    align-content: left;
+    display:inline-flex;
+    background-color: #293241;
+    color: gray;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    border-style: groove;
+    border-color:gray;
+    border-radius: 5px;
+    font-size: 20%;
+}
+table {
+    padding: 3px;
+    border: gray 1px;
+    width: 100%;
+    text-align: center;
+}
+table th {
+    background-color: #293241;
+    color: white;
+}
+#head{
+    font-family: 'Playfair display', serif;
+}
+#body{
+    font-family:'Marcellus', serif;
+}
+#bgcolor{
+    background-color: #f4f1de;
+    color: black;
+}
+#accolor{
+    background-color: #f2cc8f;
+    color: black;
+}
+#hdcolor{
+    background-color: #3d405b;
+    color: #f4f2de;
+}
+#addacc{
+    background-color: #118ab2;
+    color: #f4f2de;
+}
+h2 {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    align-content: left;
+    background-color: #293241;
+    color: white;
+    border-style: groove;
+    border-color:gray;
+    
+}
+h1{
+    padding: 3px;
+}
+img {
+    width:200px;
+    padding: 10px;
+}
+nav {
+    background-color: #293241;
+    padding: 10px;
+    font-size: 1em;
+
+}
+nav ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+a{
+    color: #ee6c4d;
+    font-family: 'alice', serif;
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(235, 235, 183);
+}
+a:hover{
+    background-color:turquoise;
+    color:#293241;
+}

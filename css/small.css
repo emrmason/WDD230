@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+body{
+    background-color: #e3f2fd;
+    max-width: 760px;
+    margin: auto;
+}
+main {
+    font-family: 'Alice', serif;
+}
+header {
+    width: 100%;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    align-content: center;
+    display:inline-flex;
+    background-color: #293241;
+    color: #ee6c4d;
+    border-style: groove;
+    border-color:gray;
+    border-radius: 5px;
+}
+
+footer {
+    width: 100%;
+    align-content: left;
+    display:inline-flex;
+    background-color: #293241;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: #ee6c4d;
+    border-style: groove;
+    border-color:gray;
+    font-size: 20%;
+}
+h2 {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    align-content: left;
+    background-color: #293241;
+    color: #ee6c4d;
+    border-style: groove;
+    border-color:gray;
+    border-radius: 5px;
+}
+h1{
+    padding: 3px;
+}
+img {
+    width: 50%;
+    padding: 10px;
+}

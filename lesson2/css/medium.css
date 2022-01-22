@@ -1,0 +1,39 @@
+@media only screen and (min-width: 32.5em) {
+    section {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    header {
+        background-color: #293241;
+        color: #EE6C4D;
+    }
+
+    h1{
+        padding: 5px;
+        color: #EE6C4D;
+    }
+
+    h2 {
+        background-color: #293241;
+        color: #EE6C4D;
+
+    }
+    
+    footer {
+        display: inline-flex;
+        background-color: #293241;
+        color: #EE6C4D;
+        font-size: 50%;
+    }
+
+    .principles h2 {
+        background-color: #293241;
+        color: #ee6c4d;
+    }
+
+}
+@media only screen and (min-width: 60em){
+    section{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
