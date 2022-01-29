@@ -2,13 +2,15 @@
     main{
         display: grid;
         grid-template-columns: 1fr 1fr;
+		row-gap: 5px;
+		column-gap: 5px;
     }
 
     .navigation {
 		display: flex;
 	}
 	.navigation li {
-		display: block; /* change state in small view */
+		display: block;
 		flex: 1 1 auto;
 	}
 	.navigation a {
@@ -16,5 +18,9 @@
 	}
 	.navigation li:first-child {
 		display: none;
+	}
+	main body div{
+		width: 1fr;
+		height: 1fr;
 	}
 }
