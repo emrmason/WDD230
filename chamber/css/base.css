@@ -1,0 +1,67 @@
+/* CSS HEX 
+--Lightest blue: #E0FBFC;
+--Light Blue: #98C1D9;
+--Blue gray: #98C1D9;
+--Accent Orange: #EE6C4D;
+--Dark Navy:  #293241;
+*/
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+/* font-family: 'Marcellus', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Playfair+Display:wght@600&display=swap');
+/* font-family: 'Playfair display', serif; */
+
+* {
+    max-width: 760px;
+    margin: auto;
+}
+header {
+    display: inline-flex;
+    width: 100%;
+    align-content: center;
+    background-color: #293241;
+    color:#98c1d9;
+}
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+}
+.navigation {
+    background-color: #ee6c4d;
+    color: #293241;
+    font-family: 'Playfair display', serif;
+    list-style: none;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    flex: 1 1 auto;
+    list-style: none;
+    text-decoration: none;
+    padding: 0.75rem;
+}
+.navigation a:hover{
+    color: #98c1d9;
+    background-color:#293241
+}
+
+
+main {
+    background-color: #98c1d9;
+    font-family: 'Playfair display', serif;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+h1 h2 h3 {
+    background-color: #293241;
+    color: #98c1d9;
+    font-family: 'Marcellus', serif;
+}
+
+footer {
+    background-color: #293241;
+    color: #98c1d9;
+}
