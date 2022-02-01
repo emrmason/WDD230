@@ -5,7 +5,7 @@ const today = {month: 'long', day: 'numeric', year: 'numeric'};
 document.getElementById("currentDate").textContent = new Date().toLocaleDateString('en-us', options);
 
 const hambutton = document.querySelector('.ham');
-const mainnav = documnt.querySelector('.navigation');
+const mainnav = document.querySelector('.navigation');
 
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 

@@ -1,6 +1,9 @@
 @media only screen and (min-width: 60em){
-    section{
+    main {
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    .grid1 {
+        width: 1fr;
     }
 }

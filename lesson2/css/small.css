@@ -31,6 +31,9 @@ footer {
     border-color:gray;
     font-size: 20%;
 }
+footer a {
+    color: white;
+}
 section {
     display: grid;
     grid-template-columns: 1fr;
