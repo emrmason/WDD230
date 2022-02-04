@@ -24,3 +24,4 @@ button1.addEventListener('click', ()=> {
 
     });
 });
+    input.focus();
