@@ -15,7 +15,7 @@ button1.addEventListener('click', ()=> {
     dbAdd.innerHTML = 'X';
     // dbAdd.setAttribute
     list.appendChild(liAdd);
-    favchap.value = ' ';
+    input.value = ' ';
 
     dbAdd.addEventListener('click', () => {
         list.removeChild(bomAdd);
