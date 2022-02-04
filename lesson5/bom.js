@@ -13,6 +13,14 @@ button1.addEventListener('click', ()=> {
     bomAdd.innerHTML = favchap;
     list.appendChild(dbAdd);
     dbAdd.innerHTML = 'X';
-    dbAdd.setAttribute
+    // dbAdd.setAttribute
     list.appendChild(liAdd);
+    favchap.value = ' ';
+
+    dbAdd.addEventListener('click', () => {
+        list.removeChild(bomAdd);
+        list.removeChild(dbAdd);
+        list.removeChild(liAdd);
+
+    });
 });
