@@ -93,6 +93,19 @@ body{
     background-color:#98c1d9
 }
 
+.grid1 {
+    position: relative;
+}
+.grid1 img{
+    width: 100%;
+    height: auto;
+}
+.grid1 button{
+    position: absolute;
+    bottom: 15%;
+    left: 70%;
+}
+
 main {
     font-family: 'Playfair display', serif;
     display: grid;
