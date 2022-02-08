@@ -1,7 +1,8 @@
 const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
+const today = {month: 'long', day: 'numeric', year: 'numeric'};
+
 document.getElementById('lastMod').textContent = new Date().toLocaleDateString('en-UK', options);
 
-const today = {month: 'long', day: 'numeric', year: 'numeric'};
 document.getElementById("currentDate").textContent = new Date().toLocaleDateString('en-us', options);
 
 function toggleMenu() {
