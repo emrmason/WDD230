@@ -5,21 +5,22 @@
 <head>
     <title>Snohomish Chamber of Commerce</title><meta name="description" content="Mock Site for Snohomish Chamber of Commerce">
     <script defer src="js/script.js"></script>
+    <script defer src="js/windchill.js"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-    <div onload="toggleBanner" class="banner">
+    <div onload="toggleBanner()" class="banner">
         <span>&#x1f91d; Join us for the Chamber Meet and Greet, Wednesday at 7:00 PM!</span>
     </div>
     <header>
-        <img src="images/logo3.png" alt="logo3">
+        <img src="images/logo3.webp" alt="logo3">
         <h1>Snohomish Chamber of Commerce</h1>
         <div class="social">
-            <img src="images/facebookIcon.png" href="www.facebook.com" target="_blank">
-            <img src="images/linkedInicon.png" href="www.linkedin.com" target="_blank">
+            <a href="www.facebook.com" target="_blank"><img src="images/facebookIcon.png" alt="FB Logo"></a>
+            <a href="www.linkedin.com" target="_blank"><img src="images/linkedInicon.png" alt="FB logo"></a>
         </div>        
         <div class="date"><section id="currentDate"></section></div>
         <div id="mylinks">
@@ -41,24 +42,25 @@
         <div class="grid1 hero">
             <section>
                 <h2>Snohomish Chamber of Commerce</h2>
-                <img class="hero"src="images/home.photo.2022.png" alt="Snohomish Home View">
+                <picture><img class="hero" id="hero" src="images/wdd230-org (1).jpg" srcset="images/wdd230-org-sm.webp 300w, images/wdd230-org-med.webp 600w, images/wdd230-org-lrg.webp 800w" sizes="(max-width: 1200px) 300px, 800px" alt="Snohomish Home View"></picture>
                 <button>Become part of the Chamber</button>
             </section>
         </div>
         <div class="grid1 events">
             <section>
                 <h2>MayDay Celebration</h2> 
-                <img src="images/kostiantyn-li-May-day-tulips.png" alt="MayDay Celebration">
+                <picture><img srcset="images/kostiantyn-li-May-day-tulips-med.webp" alt="MayDay Celebration"></picture>
                 <p>Come enjoy a Covid-friendly outdoor community gathering, with small business booths from local vendors!</p>
             </section>
         </div>
         <div class="grid1 weather">
-            <section>
+            <section onload="chillFactor()">
                 <h2>Weather</h2>
-            <img src="#" alt="Weather Icon">
-            <span>Temperature: 45 F</span>
-            <span>Wind Speed: 5 MPH</span>
-            <span>Partly Cloudy</span>
+                <p>Partly Cloudy</p>
+            <picture><img src="images/weather.png" alt="Weather Icon"></picture>
+            <p>Temperature: <span id="temp">45</span>&#176;F</p>
+            <p>Wind Speed:<span id="speed">5</span> MPH</p>
+            <p>Wind Chill:<span id="chill"></span></p>
             </section>
         </div>
         <div class="grid1 news">
@@ -70,7 +72,7 @@
         <div class="grid1 spotlights">
             <section>
                 <h2>Snohomish Farmer's Market</h2>
-                <img src="images/shelley-pauls-farmers-market.png" alt="Farmer's Market">
+                <picture><img id="farm" srcset="images/shelley-pauls-farmers-market-large.webp 800px, images/shelley-pauls-farmers-market-med.webp 600px, images/shelley-pauls-farmers-market-small.webp 300px" size="(max-width = 1200px) 300 px, 800px" src="images/shelley-pauls-farmers-market.jpg" alt="Farmer's Market"></picture>
                 <p>Every Friday and Saturday, from May to September!</p>
             </section>
             <section>
@@ -79,7 +81,7 @@
             </section>
             <section>
                 <h2>River Walk</h2>
-                <img src="#" alt="Snohomish River Walk">
+                <picture><img src="#" alt="Snohomish River Walk"></picture>
                 <p>Enjoy the fresh air and scenic valley views during your shopping trip!</p>
             </section>
         </div>
@@ -88,10 +90,9 @@
             <p>Discover how it will benefit your organization to join the chamber of commerce!</p>
         </div>
     </body>
-
 </main>
 <footer>
-<img src="images/logo3.png" alt="logo3"><p>Snohomish Chamber | <a href="https://www.google.com/maps/place/OK+Mill+Rd,+Washington+98290/@47.9950789,-122.0033443,17z/data=!3m1!4b1!4m5!3m4!1s0x549aadce8d80b0a7:0x2048b247ffd92b1b!8m2!3d47.9950789!4d-122.0011556">
+<img src="images/logo3.webp" alt="logo3"><p>Snohomish Chamber | <a href="https://www.google.com/maps/place/OK+Mill+Rd,+Washington+98290/@47.9950789,-122.0033443,17z/data=!3m1!4b1!4m5!3m4!1s0x549aadce8d80b0a7:0x2048b247ffd92b1b!8m2!3d47.9950789!4d-122.0011556">
     &#xf041;</a>1234 OK Mill Road Snohomish, WA 98290 | 360-987-6543</p><a href="#">www.snohomachamber.org</a>
 <p>&copy; Snohomish Chamber of Commerce | Emily Mason | WDD230 Project </p>
 <span id="lastMod"></span>

@@ -17,10 +17,10 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 // banner toggle function
 
 function toggleBanner() {
-    if (options.weekday == "Monday") {
+    if (options.weekday.textContent == "Monday") {
         document.getElementById(".banner").style.display= "block";
     }
-    if (options.weekday == "Tuesday") {
+    if (options.weekday.textContent == "Tuesday") {
         document.getElementById(".banner").style.display= "block";
     }
     else {
