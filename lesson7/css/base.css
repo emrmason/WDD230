@@ -1,0 +1,25 @@
+* {
+    margin: auto;
+    padding: 10 px;
+    max-width: 760px;
+}
+
+body {
+    background-color: #F5CAC3;
+    color: navy;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+picture {
+    display: block;
+}
+
+h1 {
+    padding: 5px;
+}
+img {
+    width: 400px;
+    height: auto;
+    padding: 10px;
+}
