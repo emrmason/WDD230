@@ -2,7 +2,7 @@ main {
     margin: auto;
     padding: 10 px;
     max-width: 760px;
-    align-content: center;
+
 }
 
 body {
@@ -11,12 +11,8 @@ body {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-row-gap: 25px;
-    margin-left: auto;
-    margin-right: auto;
-}
-img {
-    padding: 10px 10px 10px 10px;
+    gap: 20px;
+
 }
 
 h1 {
@@ -24,11 +20,12 @@ h1 {
     padding: 5px;
 }
 
-.placeholder {
-    display: block;
-    width: 450px;
-    height: 450px;
+picture {
+    display: flex;
     background-color:rgb(104, 179, 154);
     border: 2px solid gray;
     border-radius: 2px;
+    padding: 10px 10px 10px 10px;
+    vertical-align: center;
+    justify-content: center;
 }
