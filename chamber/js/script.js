@@ -17,14 +17,14 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 // banner toggle function
 
 function toggleBanner() {
-    if (options.weekday.textContent == "Monday") {
-        document.getElementById(".banner").style.display= "block";
+    if (document.getElementById('currentDate')[0].textContent == "Monday") {
+        document.getElementByClassName("banner").style.display= "block";
     }
-    if (options.weekday.textContent == "Tuesday") {
-        document.getElementById(".banner").style.display= "block";
+    if (document.getElementById('currentDate')[0].textContent == "Tuesday") {
+        document.getElementByClassName("banner").style.display= "block";
     }
     else {
-        document.getElementById(".banner").style.display= "none";
+        document.getElementByClassName("banner").style.display= "none";
 
     }
 }

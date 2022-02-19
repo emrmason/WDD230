@@ -175,3 +175,7 @@ footer a{
 footer a:visited{
     color:white;
 }
+
+.photoCred {
+    font-size: 8px;
+}
