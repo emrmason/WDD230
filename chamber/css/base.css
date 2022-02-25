@@ -179,20 +179,13 @@ footer a:visited{
 .photoCred {
     font-size: 8px;
 }
-.discover {
+
+.discover div{
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
-}
-.discover picture{
     grid-column: 1;
+    align-content: center;
+    justify-content: middle;
 }
-header.discover {
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 80% 20%;
-    height: 200px;
-    background-color: #293241;
-    color:#98c1d9;
-    font-family: 'Playfair display', serif;
-}
+
