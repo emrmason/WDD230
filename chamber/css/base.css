@@ -181,11 +181,7 @@ footer a:visited{
 }
 
 .discover div{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-    grid-column: 1;
-    align-content: center;
-    justify-content: middle;
+    display: block;
+    max-width: 500px;
 }
 
