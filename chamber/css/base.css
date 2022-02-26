@@ -12,8 +12,8 @@
 /* font-family: 'Playfair display', serif; */
 
 * {
-    max-width: 1200px;
     margin: auto;
+    max-width: 1200px;
     box-sizing: border-box;
     padding: 10px;
 }

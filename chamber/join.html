@@ -3,27 +3,37 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
-    <title>SnohoMachias Chamber of Commerce</title><meta name="description" content="Mock Site for SnohoMachias Chamber of Commerce">
+    <title>Join our Chamber</title><meta name="description" content="Join Snohomish Chamber">
     <script defer src="js/script.js"></script>
+    <script defer src="js/lazyload.js"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
-    <header>
-        <img alt="logo1">
-        <h1>SnohoMachias Chamber of Commerce</h1>
-        <p>Tagline</p>
-    </header>
-    <nav class="navigation responsive">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Discover</a></li>
-            <li><a href="#">Directory</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+<header>
+    <img src="images/logo3.webp" alt="logo3">
+    <h1>Snohomish Chamber of Commerce</h1>
+    <div class="social">
+        <a href="www.facebook.com" target="_blank"><img src="images/facebookIcon.png" alt="FB Logo"></a>
+        <a href="www.linkedin.com" target="_blank"><img src="images/linkedInicon.png" alt="FB logo"></a>
+    </div>        
+    <div class="date"><section id="currentDate"></section></div>
+    <div id="mylinks">
+    </div>
+</header>
+<nav>
+    <ul class="navigation">
+        <li><a class="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>    
+</nav>
 <main>
     <body>
 
