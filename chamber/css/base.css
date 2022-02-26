@@ -47,7 +47,7 @@ header img {
     grid-row: 2;
 }
 
-.social {
+#social {
     grid-column: 3;
     grid-row: 1;
 }
@@ -137,7 +137,7 @@ body{
 .spotlights section {
     overflow: hidden;
 }
-.join button{
+.joinUs button{
     background-color:#293241;
     color:#ee6c4d;
     font-size: 15pt;
@@ -154,6 +154,8 @@ main {
 }
 
 h1 h2 h3 {
+    display: block;
+    width: 100%;
     background-color: #293241;
     color: #98c1d9;
     font-family: 'Marcellus', serif;
@@ -184,4 +186,66 @@ footer a:visited{
     display: block;
     max-width: 500px;
 }
+/*-------- JOIN ------------- */
 
+main .join{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
+}
+form {
+    grid-row: 2;
+    max-width: 100%;
+}
+form fieldset {
+    display: block;
+    margin: 1rem 0;
+    border-radius: 5px;
+    padding: .5rem 2%;
+}
+form label.up {
+    display: block;
+    padding-top: 1rem;
+    font-size: .8rem;
+}
+form label.up input{
+    display: block;
+    border: 1px solid gray;
+    border-radius: 5px; 
+    max-width: 25rem;
+}
+form label.up input:required {
+    border-bottom: 3px solid red;
+}
+form label.up input:required:valid {
+    border-bottom: 3px solid green;
+}
+label.radio {
+    display: block;
+    padding: .75rem;
+}
+div.memberships {
+    grid-row: 1;
+    font-size: .9rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+div.memberships li{
+    list-style: none;
+    margin-top: -.5;
+}
+div.memberships h2, h3 {
+    background-color: #293241;
+    color: #e0fbfc;
+}
+form legend {
+    background-color: #293241;
+    color: #e0fbfc;
+    margin: 0 1rem;
+}
+form input {
+    display: block;
+    margin: 0;
+    width: 100%;
+    font-weight: bold;
+}
