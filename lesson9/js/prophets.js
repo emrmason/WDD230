@@ -20,12 +20,12 @@ function displayProphets(prophet){
     let h4 = document.createElement("h4");
     // Thanks Lewis Smith for your help!
 
-    h2.textContent = prophet.name + " " + prophet.lastname;
-    h3.textContent = 'Born: ' + prophet.birthdate;
+    h2.innerHTML = `${prophet.name} ${prophet.lastname}`;
+    h3.textContent = `Born: ${prophet.birthdate}, in ${prophet.birthplace}`;
     h4.textContent = 'Died: ' + prophet.death;
 
     portrait.setAttribute("src", prophet.imageurl);
-    portrait.setAttribute("alt", "Portrait of " + prophet.name + " " + prophet.lastname);
+    portrait.setAttribute("alt", `Portrait of ${prophet.name} ${prophet.lastname}, Prophet ${prophet.order}`);
     portrait.setAttribute("loading", "lazy");
 
     card.appendChild(h2);
