@@ -1,0 +1,88 @@
+{
+    "businesses": [
+        {   "name": "Andy's Fish House",
+            "address": "1229 1st Street, Snohomish, WA 98290",
+            "phone": "360-862-0782",
+            "site": "https://www.andysfishhouse.com",
+            "logo": ""
+
+        },
+        {   "name": "J and L BBQ",
+            "address": "130 Avenue D, Snohomish, WA 98290",
+            "phone": "360-568-7222",
+            "site": "https://www.jandlbbqsnohomish.com",
+            "logo": ""
+        },
+        {
+            "name": "Uppercase Book Shop",
+            "address": "1010 2nd Street B, Snohomish, WA 98290",
+            "phone": "360-217-8521",
+            "site": "https://www.uppercasebookshop.com",
+            "logo": ""
+        },
+        {
+            "name": "Annie's on First",
+            "address": "1122 1st Street, Snohomish, WA 98290",
+            "phone": "360-568-4242",
+            "site": "https://www.facebook.com/AnniesOnFirst",
+            "logo": ""
+        },
+        {
+            "name": "Lucca Bella Day Spa",
+            "address": "7014 171st Ave SE, Snohomish, WA 98290",
+            "phone": "206-718-9754",
+            "site": "https://www.facebook.com/LuccaBellaSkinCareStudio/",
+            "logo": ""
+        },
+        {
+            "name": "Thai Naan",
+            "address": "1010 1st Street Ste 106, Snohomish, WA 98290",
+            "phone": "360-863-6426",
+            "site": "https://www.thainaansnohomish.com",
+            "logo": ""
+        },
+        {
+            "name": "Opal Lash & Brow",
+            "address": "122 Ave A Ste 4, Snohomish, WA 98290",
+            "phone": "425-737-7110",
+            "site": "https://www.opallashandbrow.com",
+            "logo": ""
+        },
+        {
+            "name": "Simply Sweet Cupcakes",
+            "address": "2705 Bickford Ave, Snohomish, WA 98290",
+            "phone": "360-863-2956",
+            "site": "https://www.simplysweetwa.com",
+            "logo": ""
+        },
+        {
+            "name": "Snohomish Automotive",
+            "address": "121 Ave D, Snohomish, WA 98290",
+            "phone": "360-568-3182",
+            "site": "https://www.snohomishautomotive.com",
+            "logo": ""
+        },
+        {
+            "name": "Looking Glass Coffee",
+            "address": "801 1st Street, Snohomish, WA 98290",
+            "phone": "360-863-3557",
+            "site": "https://www.facebook.com/lookingglasscoffee",
+            "logo": ""
+        },
+        {
+            "name": "Snohomish Co-op",
+            "address": "168 Lincoln Ave, Snohomish, WA 98290",
+            "phone": "360-568-2104",
+            "site": "https://www.snohomishcoop.com",
+            "logo": ""
+        },
+        {
+            "name": "Spada Farmhouse Brewery",
+            "address": "709 1st Street, Snohomish, WA 98290",
+            "phone": "360-799-6190",
+            "site": "https://www.spadafarmhousebrewery.com",
+            "logo": ""
+        }
+    
+    ]
+}
