@@ -25,7 +25,7 @@ function displayMembers(member){
 
     card.appendChild(h2);
     card.appendChild(p1);
-    card.appendChild(img);
+    card.appendChild(logo);
 
     cards.appendChild(card);
 }

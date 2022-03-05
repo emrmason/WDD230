@@ -11,77 +11,77 @@
             "address": "130 Avenue D, Snohomish, WA 98290",
             "phone": "360-568-7222",
             "site": "https://www.jandlbbqsnohomish.com",
-            "logo": ""
+            "logo": "https://raw.githubusercontent.com/emrmason/wdd230/main/chamber/data/jandl-bbq-optimized.webp"
         },
         {
             "name": "Uppercase Book Shop",
             "address": "1010 2nd Street B, Snohomish, WA 98290",
             "phone": "360-217-8521",
             "site": "https://www.uppercasebookshop.com",
-            "logo": ""
+            "logo": "https://raw.githubusercontent.com/emrmason/wdd230/main/chamber/data/uppercase-optimized.webp"
         },
         {
             "name": "Annie's on First",
             "address": "1122 1st Street, Snohomish, WA 98290",
             "phone": "360-568-4242",
             "site": "https://www.facebook.com/AnniesOnFirst",
-            "logo": ""
+            "logo": "https://raw.githubusercontent.com/emrmason/wdd230/main/chamber/data/annies-on-first-optimized.webp"
         },
         {
             "name": "Lucca Bella Day Spa",
             "address": "7014 171st Ave SE, Snohomish, WA 98290",
             "phone": "206-718-9754",
             "site": "https://www.facebook.com/LuccaBellaSkinCareStudio/",
-            "logo": ""
+            "logo": "https://raw.githubusercontent.com/emrmason/wdd230/main/chamber/data/lucca-bella-optimized.webp"
         },
         {
             "name": "Thai Naan",
             "address": "1010 1st Street Ste 106, Snohomish, WA 98290",
             "phone": "360-863-6426",
             "site": "https://www.thainaansnohomish.com",
-            "logo": ""
+            "logo": "https://raw.githubusercontent.com/emrmason/wdd230/main/chamber/data/thai-naan-optimized.webp"
         },
         {
             "name": "Opal Lash & Brow",
             "address": "122 Ave A Ste 4, Snohomish, WA 98290",
             "phone": "425-737-7110",
             "site": "https://www.opallashandbrow.com",
-            "logo": ""
+            "logo": "https://raw.githubusercontent.com/emrmason/wdd230/main/chamber/data/opal-lash-optimized.webp"
         },
         {
             "name": "Simply Sweet Cupcakes",
             "address": "2705 Bickford Ave, Snohomish, WA 98290",
             "phone": "360-863-2956",
             "site": "https://www.simplysweetwa.com",
-            "logo": ""
+            "logo": "https://raw.githubusercontent.com/emrmason/wdd230/main/chamber/data/simply-sweet-optimized.webp"
         },
         {
             "name": "Snohomish Automotive",
             "address": "121 Ave D, Snohomish, WA 98290",
             "phone": "360-568-3182",
             "site": "https://www.snohomishautomotive.com",
-            "logo": ""
+            "logo": "https://github.com/emrmason/wdd230/blob/main/chamber/data/snoho-automotive-optimized.webp"
         },
         {
             "name": "Looking Glass Coffee",
             "address": "801 1st Street, Snohomish, WA 98290",
             "phone": "360-863-3557",
             "site": "https://www.facebook.com/lookingglasscoffee",
-            "logo": ""
+            "logo": "https://raw.githubusercontent.com/emrmason/wdd230/main/chamber/data/looking-glass-optimized.webp"
         },
         {
             "name": "Snohomish Co-op",
             "address": "168 Lincoln Ave, Snohomish, WA 98290",
             "phone": "360-568-2104",
             "site": "https://www.snohomishcoop.com",
-            "logo": ""
+            "logo": "https://raw.githubusercontent.com/emrmason/wdd230/main/chamber/data/snoho-automotive-optimized.webp"
         },
         {
             "name": "Spada Farmhouse Brewery",
             "address": "709 1st Street, Snohomish, WA 98290",
             "phone": "360-799-6190",
             "site": "https://www.spadafarmhousebrewery.com",
-            "logo": ""
+            "logo": "https://raw.githubusercontent.com/emrmason/wdd230/main/chamber/data/spada-brewery-logo.webp"
         }
     
     ]
