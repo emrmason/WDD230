@@ -1,10 +1,10 @@
 {
-    "businesses": [
+    "members": [
         {   "name": "Andy's Fish House",
             "address": "1229 1st Street, Snohomish, WA 98290",
             "phone": "360-862-0782",
             "site": "https://www.andysfishhouse.com",
-            "logo": ""
+            "logo": "https://raw.githubusercontent.com/emrmason/wdd230/main/chamber/data/andys-fish-logo-optimized.webp"
 
         },
         {   "name": "J and L BBQ",

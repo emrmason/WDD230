@@ -249,3 +249,13 @@ form input {
     width: 100%;
     font-weight: bold;
 }
+/*--------------DIRECTORY--------------*/
+div .menu-opts {
+    display: none;
+}
+
+div .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}

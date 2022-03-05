@@ -71,4 +71,18 @@
 	form label.up input {
 		width: 100%;
 	}
+
+	/*----------Directory--------------*/
+
+	div .menu-opts {
+		display: block;
+		margin: 0;
+		align-items: center;
+	}
+
+	div .cards {
+		display: grid;
+		grid-template-columns: 1fr, 1fr;
+		gap: 10px;
+	}
 }

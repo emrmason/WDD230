@@ -21,7 +21,7 @@ function displayProphets(prophet){
     // Thanks Lewis Smith for your help!
 
     h2.innerHTML = `${prophet.name} ${prophet.lastname}`;
-    h3.textContent = `Born: ${prophet.birthdate}, in ${prophet.birthplace}`;
+    h3.innerHTML = `Born: ${prophet.birthdate}, in ${prophet.birthplace}`;
     h4.textContent = 'Died: ' + prophet.death;
 
     portrait.setAttribute("src", prophet.imageurl);
