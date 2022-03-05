@@ -250,7 +250,7 @@ form input {
     font-weight: bold;
 }
 /*--------------DIRECTORY--------------*/
-div .menu-opts {
+.menu-opts {
     display: none;
 }
 
@@ -258,4 +258,15 @@ div .cards {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    align-items: center;
+}
+
+.dirMembers {
+    grid-column-start: 2; 
+    border: 2px solid gray;
+    box-shadow: 0 2px 2px 0 gray;
+    max-width: 500px;
+}
+.cards img{
+    max-width: 300px;
 }
