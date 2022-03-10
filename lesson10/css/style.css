@@ -19,5 +19,6 @@ p{
     border: 1px solid gray;
     box-shadow: 0 2px 2px 0 gray;
 }
-
-
+img{
+    border: 3px dotted gray;
+}
