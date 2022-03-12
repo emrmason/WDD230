@@ -181,6 +181,9 @@ body{
 .photoCred {
     font-size: 8px;
 }
+.weather img{
+    max-width: 100px;
+}
 /*--------Discover--------*/
 .discover div{
     display: block;

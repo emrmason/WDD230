@@ -62,3 +62,19 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) => {
 images.forEach(image => {
     imgObserver.observe(image);
 })
+
+// Weather API
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5810988&units=imperial&appid=6029cdcec6e4ff661fe81b24b74ac429";
+fetch(apiURL)
+  .then((response) => response.json())
+  .then((jsonObject) => {
+    console.log(jsonObject);
+    document.querySelector('#temp').textContent = jsonObject.main.temp;
+    const iconsrc= `https://openweathermap.org/img/w/${jsonObject.weather[0].icon}.png`; 
+    const desc = (jsonObject.weather[0].description).toUpperCase();
+    const windspeed = jsonObject.wind.speed;
+    document.querySelector('#weather-icon').setAttribute('src', iconsrc);
+    document.querySelector('#weather-icon').setAttribute('alt', desc);
+    document.querySelector('#weatherDesc').textContent = desc; 
+    document.querySelector('#speed').textContent = windspeed;
+  });
