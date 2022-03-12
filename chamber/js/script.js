@@ -16,17 +16,21 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 
 // banner toggle function
 
-function toggleBanner() {
-    if (document.getElementById('currentDate')[0].textContent == "Monday") {
-        document.getElementByClassName("banner").style.display= "block";
+    const bannerday = new Date();
+    const day = bannerday.getDay();
+
+    let banner = document.querySelector(".banner");
+    if (day == '1') {
+        banner.setAttribute("display", "block");
     }
-    if (document.getElementById('currentDate')[0].textContent == "Tuesday") {
-        document.getElementByClassName("banner").style.display= "block";
+    else if (day == '2') {
+        banner.setAttribute("display", "block");
     }
     else {
-        document.getElementByClassName("banner").style.display= "none";
+        banner.setAttribute("display", "none");
     }
-}
+
+
 const images = document.querySelectorAll("[data-src]");
 
 function preLoadImage(img) {

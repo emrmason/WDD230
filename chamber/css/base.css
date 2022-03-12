@@ -11,6 +11,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Playfair+Display:wght@600&display=swap');
 /* font-family: 'Playfair display', serif; */
 
+
+/* ---------- General------------- */
 * {
     margin: auto;
     max-width: 1200px;
@@ -27,27 +29,25 @@ header {
     font-family: 'Playfair display', serif;
 }
 header img {
-    /* width: 100px; */
     padding: 15px;
     grid-column: 1;
     grid-row: 1;
 }
 
-.banner{
+.banner {
     background-color: #ee6c4d;
     color:#293241;
     font-family: "Marcellus", serif;
     font-size: 20px;
     text-align: center;
-    display: block;
 }
 
-.date {
+header .date {
     grid-column: 2;
     grid-row: 2;
 }
 
-#social {
+header #social {
     grid-column: 3;
     grid-row: 1;
 }
@@ -95,6 +95,39 @@ nav {
     display: block;
 }
 
+main {
+    font-family: "Marcellus", serif;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    border: 3px gray;
+}
+
+h1 h2 h3 {
+    display: block;
+    width: 100%;
+    background-color: #293241;
+    color: #98c1d9;
+    font-family: 'Marcellus', serif;
+}
+
+footer {
+    background-color: #293241;
+    color: #98c1d9;
+    text-align: center;
+    padding: 5px;
+}
+footer .img {
+    width: 30px;
+}
+footer a{
+    font-size:15px;
+    color: white;
+}
+footer a:visited{
+    color:white;
+}
+/*--------Index--------*/
 body{
     background-color:#98c1d9
 }
@@ -145,48 +178,15 @@ body{
     width: 90%;
 }
 
-main {
-    font-family: "Marcellus", serif;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-    border: 3px gray;
-}
-
-h1 h2 h3 {
-    display: block;
-    width: 100%;
-    background-color: #293241;
-    color: #98c1d9;
-    font-family: 'Marcellus', serif;
-}
-
-footer {
-    background-color: #293241;
-    color: #98c1d9;
-    text-align: center;
-    padding: 5px;
-}
-footer .img {
-    width: 30px;
-}
-footer a{
-    font-size:15px;
-    color: white;
-}
-footer a:visited{
-    color:white;
-}
-
 .photoCred {
     font-size: 8px;
 }
-
+/*--------Discover--------*/
 .discover div{
     display: block;
     max-width: 500px;
 }
-/*-------- JOIN ------------- */
+/*-------- JOIN -------- */
 
 main .join{
     display: grid;
@@ -254,7 +254,7 @@ form input {
     display: none;
 }
 
-div .cards {
+.dir-cards {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -262,11 +262,11 @@ div .cards {
 }
 
 .dirMembers {
-    grid-column-start: 2; 
+    display: block;
     border: 2px solid gray;
     box-shadow: 0 2px 2px 0 gray;
-    max-width: 500px;
+    width: 100%;
 }
-.cards img{
+.dir-cards img{
     max-width: 300px;
 }

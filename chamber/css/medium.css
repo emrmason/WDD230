@@ -74,13 +74,13 @@
 
 	/*----------Directory--------------*/
 
-	div .menu-opts {
-		display: block;
+	.menu-opts {
+		/* display: block; */
 		margin: 0;
 		align-items: center;
 	}
 
-	div .cards {
+	.dirMembers {
 		display: grid;
 		grid-template-columns: 1fr, 1fr;
 		gap: 10px;

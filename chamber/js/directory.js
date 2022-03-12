@@ -1,5 +1,5 @@
 const requestURL = "https://raw.githubusercontent.com/emrmason/wdd230/main/chamber/data/directory.json";
-const cards = document.querySelector(".cards");
+const cards = document.querySelector(".dir-cards");
 fetch(requestURL)
     .then(function(response){
         return response.json();
