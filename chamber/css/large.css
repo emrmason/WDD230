@@ -1,5 +1,5 @@
 @media only screen and (min-width: 60em){
-    .index main {
+    main {
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: auto;
     }
@@ -11,9 +11,18 @@
         grid-column: 2;
         grid-row: 1;
     }
-    .hero img {
-        width: 100%;
-        height: 100%;
+    img.hero {
+        height: 80%;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        padding: 0;
+        margin: 0;
+    }
+    button.hero{
+        position: aboslute;
+        bottom: 45%;
+        right: 45%;
     }
 
     .spotlights {
@@ -29,8 +38,12 @@
     }
     .news {
         grid-column: 2;
-        grid-row: 2;
+        grid-row: 2;   
     }
+    .news img{
+        max-width: 50%;
+    }
+
     .weather {
         grid-column: 1;
         grid-row: 2;
@@ -52,18 +65,15 @@
     }
 
 /*--------- Discover --------*/
-    .discover main{
+    main.discover {
         display: grid;
         grid-template-columns: 350px 350px 350px;
         gap: 15px;
     }   
-    .discover div{
+    div.discover {
         max-width: 325px;
     }
-    .discover img{
-        width: 80%;
-        height: auto;
-    }
+
     
 
 }

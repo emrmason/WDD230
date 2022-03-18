@@ -19,7 +19,7 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
     const bannerday = new Date();
     const day = bannerday.getDay();
 
-    const banner = document.getElementById("#banner");
+    const banner = document.querySelector(".banner");
         if (day == '1') {
             banner.setAttribute("display", "block");
         }
@@ -31,37 +31,6 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
         }
 
 
-const images = document.querySelectorAll("[data-src]");
-
-function preLoadImage(img) {
-    const src = img.getAttribute("data-src");
-    if (!src){
-        return;
-    }
-    
-    img.src = src;
-}
-
-const imgOptions = {
-    threshold: 1,
-    rootMargin: "0px 0px -100px 0px"
-};
-
-const imgObserver = new IntersectionObserver((entries, imgObserver) => {
-    entries.forEach(entry =>{
-        if (!entry.isIntersecting) {
-            return;
-        }
-        else {
-            preLoadImage(entry.target);
-            imgObserver.unobserve(entry.target);
-        }
-    })
-}, imgOptions);
-
-images.forEach(image => {
-    imgObserver.observe(image);
-})
 
 // Weather API
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5810988&units=imperial&appid=6029cdcec6e4ff661fe81b24b74ac429";
