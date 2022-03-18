@@ -55,14 +55,16 @@
 /*-----------Directory----------------*/
     .dir-cards{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 15px;
-    }
-    .dirMembers{
-        grid-column-start: 1;
-        width: 100%;
-    }
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-auto-flow: column;
+        gap: 5px;
+        }
+    /* .dir img{
+        max-width: 200px;
+        height: auto;
+    } */
+
 
 /*--------- Discover --------*/
     main.discover {

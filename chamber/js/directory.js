@@ -36,3 +36,6 @@ function displayMembers(member){
 
     cards.appendChild(card);
 }
+const tile = document.querySelector(".tile");
+const list = document.querySelector(".list");
+

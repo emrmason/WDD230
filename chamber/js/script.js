@@ -16,19 +16,19 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 
 // banner toggle function
 
-    const bannerday = new Date();
-    const day = bannerday.getDay();
+    // const bannerday = new Date();
+    // const day = bannerday.getDay();
 
-    const banner = document.querySelector(".banner");
-        if (day == '1') {
-            banner.setAttribute("display", "block");
-        }
-        else if (day == '2') {
-            banner.setAttribute("display", "block");
-        }
-        else {
-            banner.setAttribute("display", "none");
-        }
+    // const banner = document.querySelector(".banner");
+    //     if (day == '1') {
+    //         banner.setAttribute("display", "block");
+    //     }
+    //     else if (day == '2') {
+    //         banner.setAttribute("display", "block");
+    //     }
+    //     else {
+    //         banner.setAttribute("display", "none");
+    //     }
 
 
 

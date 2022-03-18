@@ -217,6 +217,9 @@ main .join{
 form {
     grid-row: 2;
     max-width: 100%;
+    background-color:#e0fbfc;
+    border: 2px solid gray;
+    border-radius: 5px;
 }
 form fieldset {
     display: block;
@@ -248,7 +251,8 @@ label.radio {
 div.memberships {
     grid-row: 1;
     font-size: .9rem;
-    border: 1px solid gray;
+    background-color: #e0fbfc;
+    border: 2px solid gray;
     border-radius: 5px;
 }
 div.memberships li{
@@ -272,7 +276,9 @@ form input {
 }
 /*--------------DIRECTORY--------------*/
 .menu-opts {
-    display: none;
+    display: horizontal block;
+    width: 100%;
+    align-items: center;
 }
 
 .dir-cards {
@@ -282,12 +288,18 @@ form input {
     align-items: center;
 }
 
+.dir img{
+    max-width: 150px;
+    height: auto;
+
+}
 .dirMembers {
-    display: block;
+    background-color:#e0fbfc;
     border: 2px solid gray;
+    border-radius: 5px;
     box-shadow: 0 2px 2px 0 gray;
-    width: 100%;
+    text-align: center;
+    width: 80%;
+    height: 80%;
 }
-.dir-cards img{
-    max-width: 300px;
-}
+

@@ -79,10 +79,15 @@
 		margin: 0;
 		align-items: center;
 	}
-
-	.dirMembers {
+	
+	.dir-cards {
 		display: grid;
-		grid-template-columns: 1fr, 1fr;
-		gap: 10px;
+		grid-template-columns: 250px 250px ;
+		grid-template-rows: 300px repeat(auto);
+		gap: 5px;
 	}
+	.dirMembers {
+		grid-auto-flow: column;
+	}
+
 }
