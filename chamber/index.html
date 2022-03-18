@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="css/large.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-    <div class="banner">
-        <span class="banner">&#x1f91d; Join us for the Chamber Meet and Greet, Wednesday at 7:00 PM!</span>
+    <div id="banner">
+        <span id="banner">&#x1f91d; Join us for the Chamber Meet and Greet, Wednesday at 7:00 PM!</span>
     </div>
     <header>
         <img src="images/logo3.webp" alt="logo3">
@@ -37,7 +37,7 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>    
     </nav>
-<main>
+<main class="index">
     <body>
         <div class="grid1 hero">
             <section>
@@ -58,7 +58,7 @@
             <section>
                 <h2>Weather</h2>
             <picture><img id="weather-icon" src="" alt=""></picture>
-            <p id="weatherDesc"></p>
+            <p>Currently: </p><p id="weatherDesc"></p>
             <p>Temperature: <span id="temp"></span>&#176;F</p>
             <p>Wind Speed:<span id="speed"></span> MPH</p>
             <p>Wind Chill:<span id="chill"></span></p>
@@ -67,6 +67,8 @@
         <div class="grid1 news">
             <section>
                 <h2>Antiques Road Show</h2>
+                <picture><img id="antiques" src="chamber\images\christelle-bourgeois-antique-shop-unsplash-optimized.webp" alt="Antique Shop"></picture>
+                <p class="photoCred">Photo courtesy of Christelle Bourgeois, Unsplash Creative Commons</p>
                 <p>Local antiques dealers are gearing up for the coming road show, scheduled for May 15th.</p>
             </section>
         </div>
@@ -83,7 +85,7 @@
             </section>
             <section>
                 <h2>River Walk</h2>
-                <picture><img src="#" alt="Snohomish River Walk"></picture>
+                <picture><img src="chamber\images\david-lang-unsplash-Snohomish-River-optimized.webp" alt="Snohomish River Walk"></picture>
                 <p>Enjoy the fresh air and scenic valley views during your shopping trip!</p>
             </section>
         </div>
