@@ -55,6 +55,7 @@ header #social {
     grid-row: 1;
 }
 
+
 nav {
     margin: 0 auto;
 }
@@ -120,7 +121,7 @@ footer {
     text-align: center;
     padding: 5px;
 }
-footer .img {
+footer img {
     width: 30px;
 }
 footer a{
