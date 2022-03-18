@@ -98,7 +98,7 @@ nav {
     display: block;
 }
 
-.index main {
+main {
     font-family: "Marcellus", serif;
     display: grid;
     grid-template-columns: 100%;
@@ -189,9 +189,13 @@ body{
     max-width: 100px;
 }
 /*--------Discover--------*/
+
 .discover div{
     display: block;
-    max-width: 500px;
+    max-width: fit-content;
+}
+#disctitle {
+    text-align: center;
 }
 /*-------- JOIN -------- */
 

@@ -1,5 +1,5 @@
 @media only screen and (min-width: 60em){
-    main {
+    .index main {
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: auto;
     }
@@ -50,4 +50,19 @@
         grid-column-start: 1;
         width: 100%;
     }
+
+/*--------- Discover --------*/
+    .discover main{
+        display: grid;
+        grid-template-columns: 350px 350px 350px;
+        gap: 15px;
+    }   
+    .discover div{
+        max-width: 325px;
+    }
+    .discover picture{
+        max-width: 320px;
+    }
+    
+
 }
