@@ -6,7 +6,7 @@ document.getElementById('lastMod').textContent = new Date().toLocaleDateString('
 document.getElementById("currentDate").textContent = new Date().toLocaleDateString('en-us', options);
 
 function toggleMenu() {
-    document.getElementsByClassName("navigation")[0].classlist.toggle("responsive");
+    document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
 
 const hambutton = document.querySelector('.ham');
@@ -16,20 +16,23 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 
 // banner toggle function
 
-    // const bannerday = new Date();
-    // const day = bannerday.getDay();
+  const bannerday = new Date();
+  const day = bannerday.getDay();
+  // console.log(day);
+  const banner = document.querySelector(".banner");
+function toggleBanner() {
+    if (day == 1) {
+      banner.setAttribute("style", "display: block;");
+    }
+    else if (day == 2) {
+      banner.setAttribute("style", "display: block;");
+    }
+    else {
+      banner.setAttribute("style", "display: none;");
+    }
+  }
 
-    // const banner = document.querySelector(".banner");
-    //     if (day == '1') {
-    //         banner.setAttribute("display", "block");
-    //     }
-    //     else if (day == '2') {
-    //         banner.setAttribute("display", "block");
-    //     }
-    //     else {
-    //         banner.setAttribute("display", "none");
-    //     }
-
+  window.onload= toggleBanner;
 
 
 // Weather API
@@ -50,10 +53,11 @@ fetch(apiURL)
     let t = jsonObject.main.temp;   
     let wc = '';
 
-        if (t <= 50 && windspeed > 3) {
-        wc = parseFloat(35.74 + (0.6215 * t) - (35.75 * Math.pow(s,0.16)) + (0.4275 * t * Math.pow(s,0.16))).toFixed(2);
-        document.getElementById('chill').innerHTML = `${wc} &#176;F`;}
-        else {
+      if (t <= 50 && windspeed > 3) {
+        wc = parseFloat(35.74 + (0.6215 * t) - (35.75 * Math.pow(windspeed,0.16)) + (0.4275 * t * Math.pow(windspeed,0.16))).toFixed(2);
+        document.getElementById('chill').innerHTML = `${wc} &#176;F`;
+      }
+      else {
         document.getElementById('chill').innerHTML= 'N/A';
         }
   });
@@ -61,3 +65,10 @@ fetch(apiURL)
 // function capitalize(word) {
 //     return `${word.charAt(0).toUpperCase}${word.slice(1)}`;
 // }
+
+const listV = document.querySelector('.list');
+const tileV = document.querySelector('.tile');
+
+tileV.addEventListener('click', () => {dir-cards.classList.toggle('list')}, false);
+listV.addEventListener('click', ()=> {dir-cards.classList.toggle('tile')}, false); 
+

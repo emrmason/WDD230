@@ -53,17 +53,13 @@
     }
 
 /*-----------Directory----------------*/
-    .dir-cards{
+    .dir-cards.tile{
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-auto-flow: column;
         gap: 5px;
         }
-    /* .dir img{
-        max-width: 200px;
-        height: auto;
-    } */
 
 
 /*--------- Discover --------*/
