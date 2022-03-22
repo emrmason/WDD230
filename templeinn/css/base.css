@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&family=Great+Vibes&family=Marcellus&display=swap');
+
+/* Typeface
+Body Content: font-family: 'Marcellus', serif;
+Headings:  font-family: 'Frank Ruhl Libre', serif;
+Header:  font-family: 'Great Vibes', cursive;
+*/
+
+/* Color Scheme
+Main Background: #FBF8EE;
+Header background: #37666C;
+Notices background: #EED595;
+Main text color: black;
+Tile background: #9DBEBB;
+Text-On-Dark-Color: #FBF8EE;
+*/
+
+*{
+    max-width: 1000px;
+    margin: auto;
+}
+header{
+    background-color: #37666C;
+    color: #fbf8ee;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30pt;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+}
+
+h1 h2 {
+    background-color: #37666C;
+    color: #fbf8ee;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+body {
+    background-color:#fbf8ee;
+
+}
