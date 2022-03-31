@@ -20,13 +20,47 @@ Text-On-Dark-Color: #FBF8EE;
     margin: auto;
 }
 header{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 100%;
     background-color: #37666C;
     color: #fbf8ee;
-    font-family: 'Great Vibes', cursive;
-    font-size: 30pt;
     height: 200px;
     text-align: center;
     align-items: center;
+}
+header h1 {
+    grid-column: 2;
+    grid-row: 1;
+    display: inline-block;
+    font-family: 'Great Vibes', cursive;
+    font-size: 45pt;
+}
+header picture {
+    grid-row: 1;
+    grid-column: 1;
+}
+header section {
+    grid-row: 1;
+    grid-column: 3;
+} 
+nav {
+    background-color: #eed595;
+    color: #37666c;
+    font-family:'marcellus', serif;
+}
+nav ul {
+    display: inline;
+    list-style-type: none;
+    width: 100%;
+}
+nav a:hover {
+    background-color: lightgray;
+    max-width: 100%;
+}
+nav a {
+    display: block;
+    padding: 20px;
 }
 
 h1 h2 {
@@ -37,5 +71,20 @@ h1 h2 {
 
 body {
     background-color:#fbf8ee;
-
+    font-family: 'marcellus', serif;
+}
+.grid1 {
+    display: grid;
+    grid-template-columns: 1; 
+    grid-template-rows: auto;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+    
+}
+.index section{
+    display:block;
+    border: 2px solid gray;
+    border-radius: 5px; 
 }
