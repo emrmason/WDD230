@@ -6,8 +6,9 @@
     grid-template-rows: auto;
 }
 
-nav{
-    display: flex;
+.navigation li{
+    display: block;
+    flex: 1 1 100%;
 }
 
 }

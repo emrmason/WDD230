@@ -16,7 +16,7 @@ Text-On-Dark-Color: #FBF8EE;
 */
 
 *{
-    max-width: 1000px;
+    max-width: 1250px;
     margin: auto;
 }
 header{
@@ -44,32 +44,34 @@ header section {
     grid-row: 1;
     grid-column: 3;
 } 
-nav {
+.navigation {
     background-color: #eed595;
     color: #37666c;
     font-family:'marcellus', serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
 }
-nav ul {
-    display: inline;
+.navigation li {
+    display: inline-block;
     list-style: none;
-    width: 100%;
-}
-nav a:hover {
-    background-color: lightgray;
-    max-width: 100%;
-}
-nav a {
-    display: block;
-    flex: 1 1 100%;
-    padding: 20px;
-    text-align: center; 
-    padding: 0.75rem;
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+    width: 15%;
 }
 
-h1 h2 {
+.navigation a:hover {
+    background-color: lightgray;
+}
+
+h1 h2 h3{
     background-color: #37666C;
     color: #fbf8ee;
     font-family: 'Frank Ruhl Libre', serif;
+    text-align: center;
+    display: block;
+    padding: 5px;
 }
 
 body {
@@ -80,14 +82,24 @@ body {
     display: grid;
     grid-template-columns: 1; 
     grid-template-rows: auto;
+    gap: 15px;
+    padding: 5px;
 }
 .hero img {
     width: 100%;
     height: auto;
-    
+    max-width: fit-content;
+    overflow: hidden;
 }
 .index section{
     display:block;
     border: 2px solid gray;
     border-radius: 5px; 
+    background-color: #9dbebb;
+    width: 100%;
+}
+.events span{
+    display: block;
+    padding: 5px;
+    text-align: center;
 }
