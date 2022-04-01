@@ -28,6 +28,8 @@ header{
     height: 200px;
     text-align: center;
     align-items: center;
+    border: 2px solid gray;
+    border-radius: 5px;
 }
 header h1 {
     grid-column: 2;
@@ -51,6 +53,8 @@ header section {
     text-align: center;
     padding: 0;
     margin: 0;
+    border: 2px solid gray;
+    border-radius: 5px; 
     
 }
 .navigation li {
@@ -85,11 +89,21 @@ body {
     gap: 15px;
     padding: 5px;
 }
+
 .hero img {
+    width: auto;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+}
+
+.hero h2 {
+    text-align: center;
+}
+.hero button {
     width: 100%;
-    height: auto;
-    max-width: fit-content;
-    overflow: hidden;
 }
 .index section{
     display:block;
