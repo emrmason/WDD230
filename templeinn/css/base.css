@@ -68,6 +68,12 @@ header section {
 .navigation a:hover {
     background-color: lightgray;
 }
+.navigation a.ham::before{
+    width: 35px;
+    height: 5px;
+    background-color: #9dbebb;
+    margin: 6px 0;
+}
 
 h1 h2 h3{
     background-color: #37666C;
@@ -88,11 +94,12 @@ body {
     grid-template-rows: auto;
     gap: 15px;
     padding: 5px;
+    text-align: center;
 }
 
 .hero img {
-    width: auto;
-    height: 100%;
+    max-width: 600px;
+    height: auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
@@ -112,8 +119,16 @@ body {
     background-color: #9dbebb;
     width: 100%;
 }
+
 .events span{
     display: block;
     padding: 5px;
     text-align: center;
+    align-items: center;
+
+}
+
+.events img{
+    max-width: 200px;
+    padding: 10px;
 }

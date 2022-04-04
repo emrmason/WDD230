@@ -31,23 +31,39 @@
             <section class="hero">
                 <h2>Keep the Temple spirit for your entire stay!</h2>
                 <picture><img src="images/washington_dc_mormon_temple.webp" alt="Washington DC Temple Photo"></picture>
-                <button type="button">Book Now</button>
+                <button type="button" onclick="document.location='reservations.html'">Book Now</button>
             </section>    
             <section class="events">
                 <h3>Coming Up This Week</h3>
-                <span>"Legacy" available to watch in your room</span>
-                <span>Join us for a devotional broadcast from BYU, given by Elder Bednar</span>
+                <section>
+                <picture><img src="images/legacy.webp" alt="Legacy movie photo"></picture>
+                <span>Available to watch in your room</span>
+                </section>
+                <section>
+                <picture><img src="images/byu-devotional.webp"alt="BYU Devotional Logo"></picture>
+                <span>Join us for a devotional broadcast from BYU</span>
+                </section>
+                <section>
+                <picture><img src="images/general-conference.webp" alt="General Conference Logo"></picture>
                 <span>General Conference broadcasts available in your room, or join us to watch in the reception area</span>
-            </section>
+            </section></section>
             <section class="weather1">
                 <h3>Current Weather Conditions</h3>
+                <span>Temperature: <p id="temp"></p>&#176; F</span>
+                <span>Currently: <p id="weatherDesc"></p></span>
+                <picture><img id="weather-icon" alt=" " src=" "></picture>
             </section>
             <section class="weather2">
                 <h3>Weather Forecast</h3>
             </section>
             <section class="offers">
                 <h2>Special Offers</h2>
-                <p></p>
+                <section>
+                    <picture><img src="#" alt="discount"></picture>
+                    <p>Book 3 months in advance, and receive 20% off the total cost of your stay!</p></section>
+                <section>
+                    <picture><img src="images/zero-take-reception-area.webp" alt="Reception Area"</picture>
+                    <p>Request Reception room within the next 10 days for a discount offer on food service!</p></section>
             </section>
             <section class="reviews">
                 <h2>Guest Reviews</h2>
@@ -57,7 +73,7 @@
         </main>
     </body>
     <footer>
-        &copy; | Temple Inn & Suites | Date | Address | Map Link | Sources for Content
+        &copy; | Temple Inn & Suites | <div class="date"><section id="currentDate"></section></div> | <a href="https://goo.gl/maps/87cY2cToPjkgg14Y9">Map</a> | <a href="sources.html">Source Attribution</a>
     </footer>
 
 </html>
