@@ -55,7 +55,6 @@ header section {
     margin: 0;
     border: 2px solid gray;
     border-radius: 5px; 
-    
 }
 .navigation li {
     display: inline-block;
@@ -68,12 +67,7 @@ header section {
 .navigation a:hover {
     background-color: lightgray;
 }
-.navigation a.ham::before{
-    width: 35px;
-    height: 5px;
-    background-color: #9dbebb;
-    margin: 6px 0;
-}
+
 
 h1 h2 h3{
     background-color: #37666C;
@@ -82,6 +76,7 @@ h1 h2 h3{
     text-align: center;
     display: block;
     padding: 5px;
+    height: 20px;
 }
 
 body {
@@ -120,15 +115,58 @@ body {
     width: 100%;
 }
 
-.events span{
+.events div{
     display: block;
-    padding: 5px;
     text-align: center;
     align-items: center;
-
+}
+.events span{
+    display: block;
 }
 
 .events img{
     max-width: 200px;
     padding: 10px;
+}
+fieldset {
+    display: block;
+    max-width: 300px;
+    align-items: center;
+}
+.radio {
+    display: block;
+    max-width: 300px; 
+    align-items: center;
+}
+.offers img {
+    max-width: 300px;
+}
+
+.templeCards {
+    background-color:#9dbebb;
+    border: 2px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    overflow-wrap: break-word;
+}
+.temple-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.temple-cards picture{
+    max-width: 200px; 
+    height: auto;
+}
+.services ul{
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+footer {
+    align-items: center;
 }

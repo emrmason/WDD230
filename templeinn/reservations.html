@@ -5,7 +5,7 @@
     <head>
         <title>Temple Inn & Suites</title>
         <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/med.css">
+        <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
         <link rel="stylesheet" href="css/normalize.css">
         <script defer src="js/script.js"></script>
@@ -18,7 +18,7 @@
     <body>
         <nav class="navigation">
             <ul>
-                <li><a href="./">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="temples.html">Temples</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="reservations.html">Reservations</a></li>
@@ -28,9 +28,26 @@
         </nav>
         <main>
             <h2>Reservations</h2>
-            <form>
-
-                
+            <form class="contactForm" method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Personal Info</legend>
+                    <label class="persinfo">First and Last Name<input type="text" name="firstLast" required></label>
+                    <label class="persinfo">E-mail<input type="email" name="email" required></label>
+                    <label class="persinfo">Phone<input type="number" name="phone" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Arrival and Departure Date</legend>
+                    <label class="resdates">Arrival: <input type="date" name="startdate" required></label>
+                    <label class="resdates">Departure: <input type="date" name="enddate" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Room Requested</legend>
+                    <label class="radio">Single Queen Bed                      <input type="radio" name="roomsize" value="SingleQueen"></label>
+                    <label class="radio">Double Queen Beds                     <input type="radio" name="roomsize" value="DoubleQueen"></label>
+                    <label class="radio">Single King with Kitchenette          <input type="radio" name="roomsize" value="KingKitch"></label>
+                    <label class="radio">Double Queen Bunk with Kitchenette    <input type="radio" name="roomsize" value="QBunkKitch"></label>
+                </fieldset>
+                <input type="submit" value="Send">
             </form>
 
         </main>
