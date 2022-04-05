@@ -47,6 +47,7 @@ header section {
     grid-column: 3;
 } 
 .navigation {
+    display: block;
     background-color: #eed595;
     color: #37666c;
     font-family:'marcellus', serif;
@@ -142,13 +143,11 @@ fieldset {
     max-width: 300px;
 }
 
-.templeCards {
+.temple-cards {
     background-color:#9dbebb;
     border: 2px solid gray;
     border-radius: 5px;
     text-align: center;
-    width: 100%;
-    height: 100%;
     overflow-wrap: break-word;
 }
 .temple-cards {
@@ -157,12 +156,15 @@ fieldset {
     grid-template-rows: auto;
     gap: 10px; 
     align-items: center;
-    width: 100%;
+    width: 1fr;
     height: auto;
 }
-.temple-cards picture{
+.temple-cards img{
     max-width: 200px; 
     height: auto;
+}
+.temple-cards p{
+    display: block;
 }
 .services ul{
     border: 2px solid gray;
