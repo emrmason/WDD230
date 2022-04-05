@@ -21,8 +21,8 @@ fetch(requestURL)
     })
     .then(function(jsonObject){
         console.table(jsonObject);
-        const members = jsonObject['temples'];
-        members.forEach(displayTemples);
+        const temples = jsonObject['temples'];
+        temples.forEach(displayTemples);
     });
 
 function displayTemples(temple){
@@ -31,6 +31,7 @@ function displayTemples(temple){
     let p1 = document.createElement('p');
     let p2 = document.createElement('p');
     let p3 = document.createElement('p');
+    let p4 = document.createElement('p');
     let picture = document.createElement('img');
 
     h2.innerHTML= `${temple.name}`;
@@ -43,13 +44,13 @@ function displayTemples(temple){
     picture.setAttribute("src", temple.picture);
     picture.setAttribute("alt", `${temple.name} Temple`);
     picture.setAttribute("loading", "lazy");
-    card.setAttribute("class", "templeCards");
+    card.setAttribute("class", "temple-cards");
 
     card.appendChild(h2);
     card.appendChild(p1);
     card.appendChild(p2);
     card.appendChild(p3);
-    card.appendChild(p4)
+    card.appendChild(p4);
     card.appendChild(picture);
 
     cards.appendChild(card);

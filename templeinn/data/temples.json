@@ -6,7 +6,7 @@
             "hours": "Currently Closed",
             "ordinances": "Currently Closed",
             "services": "Clothing Rental",
-            "picture": "../images/washington_dc_mormon_temple.webp"
+            "picture": "washington_dc_mormon_temple.webp"
         },
 
         {   "name": "Cardston, Alberta, Canada",
@@ -15,7 +15,7 @@
             "hours": "Ordinances By Appointment Only",
             "ordinances": "Live or Proxy: Baptism, Confirmation, Priesthood Ordination, Initiatory, Endowment, and Sealing.",
             "services":"Clothing Rental",
-            "picture": "../images/cardston_alberta_temple_lds.webp"
+            "picture": "cardston_alberta_temple_lds.webp"
         },
         
         {   "name": "Fresno, California, USA",
@@ -24,7 +24,7 @@
             "hours": "Ordinances By Appointment Only",
             "ordinances": "Live or Proxy: Baptism, Confirmation, Priesthood Ordination, Initiatory, Endowment, and Sealing.",
             "services":"Clothing Rental",
-            "picture": "../images/fresno_temple_lds.webp"
+            "picture": "fresno_temple_lds.webp"
         },
         
         {   "name": "Hartford, Connecticut, USA",
@@ -33,7 +33,7 @@
             "hours": "Ordinances By Appointment Only",
             "ordinances": "Live or Proxy: Baptism, Confirmation, Priesthood Ordination, Initiatory, Endowment, and Sealing.",
             "services":"None",
-            "picture": "../images/hartford_connecticut_temple_.webp"
+            "picture": "hartford_connecticut_temple_.webp"
         },
         
         {   "name": "Raleigh, North Carolina, USA",
@@ -42,7 +42,7 @@
             "hours": "Ordinances By Appointment Only",
             "ordinances": "Live or Proxy: Baptism, Confirmation, Priesthood Ordination, Initiatory, Endowment, and Sealing.",
             "services":"None",
-            "picture": "../images/raleigh_north_carolina_temple.webp"
+            "picture": "raleigh_north_carolina_temple.webp"
         },
         
         {   "name": "Veracruz, Mexico",
@@ -51,7 +51,7 @@
             "hours": "Ordinances By Appointment Only",
             "ordinances": "Live or Proxy: Baptism, Confirmation, Priesthood Ordination, Initiatory, Endowment, and Sealing.",
             "services":"None",
-            "picture": "../images/veracruz_mexico_temple_lds.webp"
+            "picture": "veracruz_mexico_temple_lds.webp"
         },
 
         {   "name": "Winter Quarters, Nebraska, USA",
@@ -60,7 +60,7 @@
             "hours": "Ordinances By Appointment Only",
             "ordinances": "Live or Proxy: Baptism, Confirmation, Priesthood Ordination, Initiatory, Endowment, and Sealing.",
             "services":"None",
-            "picture": "../images/winter_quarters_temple_lds.webp"
+            "picture": "winter_quarters_temple_lds.webp"
         }
     ]
     
