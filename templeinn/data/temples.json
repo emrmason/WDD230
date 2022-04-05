@@ -6,7 +6,7 @@
             "hours": "Currently Closed",
             "ordinances": "Currently Closed",
             "services": "Clothing Rental",
-            "picture": "washington_dc_mormon_temple.webp"
+            "picture": "https://raw.githubusercontent.com/emrmason/wdd230/main/templeinn/data/washington_dc_mormon_temple.webp"
         },
 
         {   "name": "Cardston, Alberta, Canada",
@@ -15,7 +15,7 @@
             "hours": "Ordinances By Appointment Only",
             "ordinances": "Live or Proxy: Baptism, Confirmation, Priesthood Ordination, Initiatory, Endowment, and Sealing.",
             "services":"Clothing Rental",
-            "picture": "cardston_alberta_temple_lds.webp"
+            "picture": "https://raw.githubusercontent.com/emrmason/wdd230/main/templeinn/data/cardston_alberta_temple_lds.webp"
         },
         
         {   "name": "Fresno, California, USA",
@@ -24,7 +24,7 @@
             "hours": "Ordinances By Appointment Only",
             "ordinances": "Live or Proxy: Baptism, Confirmation, Priesthood Ordination, Initiatory, Endowment, and Sealing.",
             "services":"Clothing Rental",
-            "picture": "fresno_temple_lds.webp"
+            "picture": "https://raw.githubusercontent.com/emrmason/wdd230/main/templeinn/data/fresno_temple_lds.webp"
         },
         
         {   "name": "Hartford, Connecticut, USA",
@@ -33,7 +33,7 @@
             "hours": "Ordinances By Appointment Only",
             "ordinances": "Live or Proxy: Baptism, Confirmation, Priesthood Ordination, Initiatory, Endowment, and Sealing.",
             "services":"None",
-            "picture": "hartford_connecticut_temple_.webp"
+            "picture": "https://raw.githubusercontent.com/emrmason/wdd230/main/templeinn/data/hartford_connecticut_temple.webp"
         },
         
         {   "name": "Raleigh, North Carolina, USA",
@@ -42,7 +42,7 @@
             "hours": "Ordinances By Appointment Only",
             "ordinances": "Live or Proxy: Baptism, Confirmation, Priesthood Ordination, Initiatory, Endowment, and Sealing.",
             "services":"None",
-            "picture": "raleigh_north_carolina_temple.webp"
+            "picture": "https://raw.githubusercontent.com/emrmason/wdd230/main/templeinn/data/raleigh_north_carolina_temple.webp"
         },
         
         {   "name": "Veracruz, Mexico",
@@ -51,7 +51,7 @@
             "hours": "Ordinances By Appointment Only",
             "ordinances": "Live or Proxy: Baptism, Confirmation, Priesthood Ordination, Initiatory, Endowment, and Sealing.",
             "services":"None",
-            "picture": "veracruz_mexico_temple_lds.webp"
+            "picture": "https://raw.githubusercontent.com/emrmason/wdd230/main/templeinn/data/veracruz_mexico_temple_lds.webp"
         },
 
         {   "name": "Winter Quarters, Nebraska, USA",
@@ -60,7 +60,7 @@
             "hours": "Ordinances By Appointment Only",
             "ordinances": "Live or Proxy: Baptism, Confirmation, Priesthood Ordination, Initiatory, Endowment, and Sealing.",
             "services":"None",
-            "picture": "winter_quarters_temple_lds.webp"
+            "picture": "https://raw.githubusercontent.com/emrmason/wdd230/main/templeinn/data/winter_quarters_temple_lds.webp"
         }
     ]
     

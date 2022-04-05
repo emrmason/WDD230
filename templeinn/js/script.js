@@ -36,7 +36,7 @@ function displayTemples(temple){
 
     h2.innerHTML= `${temple.name}`;
     p1.innerHTML= `Address: ${temple.address}`;
-    p2.innerHTML = `Phone: ${temple.phone}`;
+    p2.innerHTML = `Phone: ${temple.telephone}`;
     p3.innerHTML = `Hours: ${temple.hours}`;
     p4.innerHTML = `Services: ${temple.services}`
 
