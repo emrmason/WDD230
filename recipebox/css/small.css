@@ -1,7 +1,14 @@
-/* fonts: */
+/* fonts: 
+font-family: 'Abhaya Libre', serif;
+font-family: 'Handlee', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kalam', cursive; */
+
 /* colors:
 --light-cornflower-blue: #8ecae6ff;
 --blue-green: #219ebcff;
 --prussian-blue: #023047ff;
 --selective-yellow: #ffb703ff;
 --tangerine: #fb8500ff; */
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Handlee&family=Josefin+Sans:wght@300&family=Kalam&display=swap');
